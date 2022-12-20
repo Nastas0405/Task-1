@@ -44,7 +44,7 @@ newValue = newValue + 1;
         let difference = delta;
     let newSum;
     newSum = oldSum + difference;
-    newSumText = newSum + " ₽";
+    newSumText = `${newSum} ₽`;
 
     return newSumText;
 }
